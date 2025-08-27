@@ -1,11 +1,4 @@
-const Sequelize = require("sequelize");
-const cartModel = require("./cartModel");
-const favModel = require("./favModel");
-const bookingsModel = require("./bookingsModel");
-const reportModel = require("./reportModel");
-const contactUsModel = require("./contactUsModel");
-const surveyModel = require("./surveyModel");
-const answersModel = require("./answersModel");
+
 const sequelize = require("../config/DBconnect").sequelize;
 module.exports = {
   userModel: require("../models/userModel")(
