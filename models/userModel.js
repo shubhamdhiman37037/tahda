@@ -16,7 +16,7 @@ module.exports = (Sequelize, sequelize, DataTypes) => {
         defaultValue: null,
       },
       password: {
-        type: DataTypes.STRING(150),
+        type: DataTypes.STRING(100),
         defaultValue: null,
       },
       otp: {
