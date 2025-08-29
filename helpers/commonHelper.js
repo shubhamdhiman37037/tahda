@@ -15,11 +15,11 @@ module.exports = {
   mailSender: async (mail) => {
     try {
       let Mail_SMTPAuth = true;
-      let Mail_Username = "shubhamdhiman82954@gmail.com";
-      let Mail_Password = "zokt bydo uesq unui";
+      let Mail_Username = "";
+      let Mail_Password = "";
       let Mail_SMTPSecure = "";
-      let Mail_Port = "587";
-      let Mail_host = "smtp.gmail.com";
+      let Mail_Port = "";
+      let Mail_host = "";
 
       const transport = nodemailer.createTransport({
         host: Mail_host,
